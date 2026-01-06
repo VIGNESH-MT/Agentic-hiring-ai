@@ -1,0 +1,890 @@
+[
+  {
+    "skill": "rest",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "rest"
+  },
+  {
+    "skill": "machine",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "machine"
+  },
+  {
+    "skill": "deep",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "deep"
+  },
+  {
+    "skill": "groundwater",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "groundwater"
+  },
+  {
+    "skill": "interactive",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "interactive"
+  },
+  {
+    "skill": "pattern",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "pattern"
+  },
+  {
+    "skill": "communication",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "communication"
+  },
+  {
+    "skill": "learning",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "learning"
+  },
+  {
+    "skill": "pipelines",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "pipelines"
+  },
+  {
+    "skill": "transparency",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "transparency"
+  },
+  {
+    "skill": "metrics",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "metrics"
+  },
+  {
+    "skill": "intelligence",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "intelligence"
+  },
+  {
+    "skill": "processing",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "processing"
+  },
+  {
+    "skill": "python",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "python"
+  },
+  {
+    "skill": "technology",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "technology"
+  },
+  {
+    "skill": "automation",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "automation"
+  },
+  {
+    "skill": "visualization",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "visualization"
+  },
+  {
+    "skill": "forecasting",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "forecasting"
+  },
+  {
+    "skill": "tamil",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "tamil"
+  },
+  {
+    "skill": "maintenance",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "maintenance"
+  },
+  {
+    "skill": "sql",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "sql"
+  },
+  {
+    "skill": "models",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "models"
+  },
+  {
+    "skill": "data",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "data"
+  },
+  {
+    "skill": "keras",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "keras"
+  },
+  {
+    "skill": "etl",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "etl"
+  },
+  {
+    "skill": "science",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "science"
+  },
+  {
+    "skill": "agile",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "agile"
+  },
+  {
+    "skill": "opencv",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "opencv"
+  },
+  {
+    "skill": "analyst",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "analyst"
+  },
+  {
+    "skill": "datasets",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "datasets"
+  },
+  {
+    "skill": "seaborn",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "seaborn"
+  },
+  {
+    "skill": "live",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "live"
+  },
+  {
+    "skill": "stimulation",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "stimulation"
+  },
+  {
+    "skill": "git",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "git"
+  },
+  {
+    "skill": "mar",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "mar"
+  },
+  {
+    "skill": "flask",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "flask"
+  },
+  {
+    "skill": "german",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "german"
+  },
+  {
+    "skill": "analytics",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "analytics"
+  },
+  {
+    "skill": "satellite",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "satellite"
+  },
+  {
+    "skill": "fundamentals",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "fundamentals"
+  },
+  {
+    "skill": "google",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "google"
+  },
+  {
+    "skill": "gis",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "gis"
+  },
+  {
+    "skill": "classification",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "classification"
+  },
+  {
+    "skill": "workflows",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "workflows"
+  },
+  {
+    "skill": "queries",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "queries"
+  },
+  {
+    "skill": "engineer",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "engineer"
+  },
+  {
+    "skill": "skills",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "skills"
+  },
+  {
+    "skill": "web",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "web"
+  },
+  {
+    "skill": "teams",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "teams"
+  },
+  {
+    "skill": "scientist",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "scientist"
+  },
+  {
+    "skill": "resume",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "resume"
+  },
+  {
+    "skill": "engineering",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "engineering"
+  },
+  {
+    "skill": "management",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "management"
+  },
+  {
+    "skill": "screening",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "screening"
+  },
+  {
+    "skill": "qlik",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "qlik"
+  },
+  {
+    "skill": "docker",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "docker"
+  },
+  {
+    "skill": "tensorflow",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "tensorflow"
+  },
+  {
+    "skill": "international",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "international"
+  },
+  {
+    "skill": "dashboard",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "dashboard"
+  },
+  {
+    "skill": "arima",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "arima"
+  },
+  {
+    "skill": "computing",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "computing"
+  },
+  {
+    "skill": "javascript",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "javascript"
+  },
+  {
+    "skill": "pipeline",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "pipeline"
+  },
+  {
+    "skill": "collaboration",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "collaboration"
+  },
+  {
+    "skill": "apis",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "apis"
+  },
+  {
+    "skill": "dashboards",
+    "confidence": 1.0,
+    "method": "exact",
+    "evidence_snippet": "dashboards"
+  },
+  {
+    "skill": "mediums",
+    "confidence": 0.923076923076923,
+    "method": "fuzzy",
+    "evidence_snippet": "mediums"
+  },
+  {
+    "skill": "mobile",
+    "confidence": 0.923076923076923,
+    "method": "fuzzy",
+    "evidence_snippet": "mobile"
+  },
+  {
+    "skill": "integrative",
+    "confidence": 0.9090909090909091,
+    "method": "fuzzy",
+    "evidence_snippet": "integrative"
+  },
+  {
+    "skill": "coring",
+    "confidence": 0.923076923076923,
+    "method": "fuzzy",
+    "evidence_snippet": "coring"
+  },
+  {
+    "skill": "ecommunications",
+    "confidence": 0.9285714285714286,
+    "method": "fuzzy",
+    "evidence_snippet": "ecommunications"
+  },
+  {
+    "skill": "cprojects",
+    "confidence": 0.9411764705882352,
+    "method": "fuzzy",
+    "evidence_snippet": "cprojects"
+  },
+  {
+    "skill": "healthcare",
+    "confidence": 1.0,
+    "method": "fuzzy",
+    "evidence_snippet": "healthcare"
+  },
+  {
+    "skill": "vpython",
+    "confidence": 0.923076923076923,
+    "method": "fuzzy",
+    "evidence_snippet": "vpython"
+  },
+  {
+    "skill": "linkedin",
+    "confidence": 0.9411764705882352,
+    "method": "fuzzy",
+    "evidence_snippet": "linkedin"
+  },
+  {
+    "skill": "iterative",
+    "confidence": 0.9,
+    "method": "fuzzy",
+    "evidence_snippet": "iterative"
+  },
+  {
+    "skill": "prediction",
+    "confidence": 0.9523809523809522,
+    "method": "fuzzy",
+    "evidence_snippet": "prediction"
+  },
+  {
+    "skill": "pythonx",
+    "confidence": 0.923076923076923,
+    "method": "fuzzy",
+    "evidence_snippet": "pythonx"
+  },
+  {
+    "skill": "communications",
+    "confidence": 0.962962962962963,
+    "method": "fuzzy",
+    "evidence_snippet": "communications"
+  },
+  {
+    "skill": "matplotlib",
+    "confidence": 0.9523809523809522,
+    "method": "fuzzy",
+    "evidence_snippet": "matplotlib"
+  },
+  {
+    "skill": "elearning",
+    "confidence": 0.9411764705882352,
+    "method": "fuzzy",
+    "evidence_snippet": "elearning"
+  },
+  {
+    "skill": "extractions",
+    "confidence": 0.9090909090909091,
+    "method": "fuzzy",
+    "evidence_snippet": "extractions"
+  },
+  {
+    "skill": "system",
+    "confidence": 0.923076923076923,
+    "method": "fuzzy",
+    "evidence_snippet": "system"
+  },
+  {
+    "skill": "gearman",
+    "confidence": 0.923076923076923,
+    "method": "fuzzy",
+    "evidence_snippet": "gearman"
+  },
+  {
+    "skill": "workflow",
+    "confidence": 0.9411764705882352,
+    "method": "fuzzy",
+    "evidence_snippet": "workflow"
+  },
+  {
+    "skill": "engineers",
+    "confidence": 0.9411764705882352,
+    "method": "fuzzy",
+    "evidence_snippet": "engineers"
+  },
+  {
+    "skill": "conferences",
+    "confidence": 0.9523809523809522,
+    "method": "fuzzy",
+    "evidence_snippet": "conferences"
+  },
+  {
+    "skill": "maschine",
+    "confidence": 0.9333333333333332,
+    "method": "fuzzy",
+    "evidence_snippet": "maschine"
+  },
+  {
+    "skill": "multilingual",
+    "confidence": 1.0,
+    "method": "fuzzy",
+    "evidence_snippet": "multilingual"
+  },
+  {
+    "skill": "bpython",
+    "confidence": 0.923076923076923,
+    "method": "fuzzy",
+    "evidence_snippet": "bpython"
+  },
+  {
+    "skill": "pandas",
+    "confidence": 0.923076923076923,
+    "method": "fuzzy",
+    "evidence_snippet": "pandas"
+  },
+  {
+    "skill": "journals",
+    "confidence": 0.9333333333333332,
+    "method": "fuzzy",
+    "evidence_snippet": "journals"
+  },
+  {
+    "skill": "zseries",
+    "confidence": 0.923076923076923,
+    "method": "fuzzy",
+    "evidence_snippet": "zseries"
+  },
+  {
+    "skill": "imagej",
+    "confidence": 0.9090909090909091,
+    "method": "fuzzy",
+    "evidence_snippet": "imagej"
+  },
+  {
+    "skill": "evaluations",
+    "confidence": 0.9565217391304348,
+    "method": "fuzzy",
+    "evidence_snippet": "evaluations"
+  },
+  {
+    "skill": "redevelopment",
+    "confidence": 0.9166666666666665,
+    "method": "fuzzy",
+    "evidence_snippet": "redevelopment"
+  },
+  {
+    "skill": "languages",
+    "confidence": 0.9473684210526316,
+    "method": "fuzzy",
+    "evidence_snippet": "languages"
+  },
+  {
+    "skill": "transformer",
+    "confidence": 0.9166666666666665,
+    "method": "fuzzy",
+    "evidence_snippet": "transformer"
+  },
+  {
+    "skill": "database",
+    "confidence": 1.0,
+    "method": "fuzzy",
+    "evidence_snippet": "database"
+  },
+  {
+    "skill": "microservices",
+    "confidence": 1.0,
+    "method": "fuzzy",
+    "evidence_snippet": "microservices"
+  },
+  {
+    "skill": "databases",
+    "confidence": 0.9411764705882352,
+    "method": "fuzzy",
+    "evidence_snippet": "databases"
+  },
+  {
+    "skill": "numpy",
+    "confidence": 0.9090909090909091,
+    "method": "fuzzy",
+    "evidence_snippet": "numpy"
+  },
+  {
+    "skill": "projects",
+    "confidence": 1.0,
+    "method": "fuzzy",
+    "evidence_snippet": "projects"
+  },
+  {
+    "skill": "framework",
+    "confidence": 0.9473684210526316,
+    "method": "fuzzy",
+    "evidence_snippet": "framework"
+  },
+  {
+    "skill": "tissue",
+    "confidence": 0.9090909090909091,
+    "method": "fuzzy",
+    "evidence_snippet": "tissue"
+  },
+  {
+    "skill": "networkx",
+    "confidence": 0.9411764705882352,
+    "method": "fuzzy",
+    "evidence_snippet": "networkx"
+  },
+  {
+    "skill": "developmental",
+    "confidence": 0.9166666666666665,
+    "method": "fuzzy",
+    "evidence_snippet": "developmental"
+  },
+  {
+    "skill": "mpower",
+    "confidence": 0.9090909090909091,
+    "method": "fuzzy",
+    "evidence_snippet": "mpower"
+  },
+  {
+    "skill": "xseries",
+    "confidence": 0.923076923076923,
+    "method": "fuzzy",
+    "evidence_snippet": "xseries"
+  },
+  {
+    "skill": "analysis",
+    "confidence": 0.9411764705882352,
+    "method": "fuzzy",
+    "evidence_snippet": "analysis"
+  },
+  {
+    "skill": "integration",
+    "confidence": 0.9565217391304348,
+    "method": "fuzzy",
+    "evidence_snippet": "integration"
+  },
+  {
+    "skill": "features",
+    "confidence": 0.9333333333333332,
+    "method": "fuzzy",
+    "evidence_snippet": "features"
+  },
+  {
+    "skill": "developers",
+    "confidence": 0.9473684210526316,
+    "method": "fuzzy",
+    "evidence_snippet": "developers"
+  },
+  {
+    "skill": "redeployment",
+    "confidence": 0.9090909090909091,
+    "method": "fuzzy",
+    "evidence_snippet": "redeployment"
+  },
+  {
+    "skill": "pseries",
+    "confidence": 0.923076923076923,
+    "method": "fuzzy",
+    "evidence_snippet": "pseries"
+  },
+  {
+    "skill": "screenings",
+    "confidence": 0.9473684210526316,
+    "method": "fuzzy",
+    "evidence_snippet": "screenings"
+  },
+  {
+    "skill": "indigestion",
+    "confidence": 0.9,
+    "method": "fuzzy",
+    "evidence_snippet": "indigestion"
+  },
+  {
+    "skill": "resolutions",
+    "confidence": 0.9,
+    "method": "fuzzy",
+    "evidence_snippet": "resolutions"
+  },
+  {
+    "skill": "excel",
+    "confidence": 0.9090909090909091,
+    "method": "fuzzy",
+    "evidence_snippet": "excel"
+  },
+  {
+    "skill": "email",
+    "confidence": 0.9090909090909091,
+    "method": "fuzzy",
+    "evidence_snippet": "email"
+  },
+  {
+    "skill": "scientists",
+    "confidence": 0.9473684210526316,
+    "method": "fuzzy",
+    "evidence_snippet": "scientists"
+  },
+  {
+    "skill": "mlearning",
+    "confidence": 0.9411764705882352,
+    "method": "fuzzy",
+    "evidence_snippet": "mlearning"
+  },
+  {
+    "skill": "project",
+    "confidence": 0.9333333333333332,
+    "method": "fuzzy",
+    "evidence_snippet": "project"
+  },
+  {
+    "skill": "developments",
+    "confidence": 0.9565217391304348,
+    "method": "fuzzy",
+    "evidence_snippet": "developments"
+  },
+  {
+    "skill": "cognition",
+    "confidence": 0.9,
+    "method": "fuzzy",
+    "evidence_snippet": "cognition"
+  },
+  {
+    "skill": "persona",
+    "confidence": 0.9333333333333332,
+    "method": "fuzzy",
+    "evidence_snippet": "persona"
+  },
+  {
+    "skill": "imagex",
+    "confidence": 0.9090909090909091,
+    "method": "fuzzy",
+    "evidence_snippet": "imagex"
+  },
+  {
+    "skill": "centrex",
+    "confidence": 0.923076923076923,
+    "method": "fuzzy",
+    "evidence_snippet": "centrex"
+  },
+  {
+    "skill": "cpython",
+    "confidence": 0.923076923076923,
+    "method": "fuzzy",
+    "evidence_snippet": "cpython"
+  },
+  {
+    "skill": "fusing",
+    "confidence": 0.9090909090909091,
+    "method": "fuzzy",
+    "evidence_snippet": "fusing"
+  },
+  {
+    "skill": "ecognition",
+    "confidence": 0.9523809523809522,
+    "method": "fuzzy",
+    "evidence_snippet": "ecognition"
+  },
+  {
+    "skill": "programming",
+    "confidence": 1.0,
+    "method": "fuzzy",
+    "evidence_snippet": "programming"
+  },
+  {
+    "skill": "simulations",
+    "confidence": 0.9090909090909091,
+    "method": "fuzzy",
+    "evidence_snippet": "simulations"
+  },
+  {
+    "skill": "evacuation",
+    "confidence": 0.9,
+    "method": "fuzzy",
+    "evidence_snippet": "evacuation"
+  },
+  {
+    "skill": "devops",
+    "confidence": 0.923076923076923,
+    "method": "fuzzy",
+    "evidence_snippet": "devops"
+  },
+  {
+    "skill": "internships",
+    "confidence": 0.9523809523809522,
+    "method": "fuzzy",
+    "evidence_snippet": "internships"
+  },
+  {
+    "skill": "juniors",
+    "confidence": 0.923076923076923,
+    "method": "fuzzy",
+    "evidence_snippet": "juniors"
+  },
+  {
+    "skill": "certification",
+    "confidence": 1.0,
+    "method": "fuzzy",
+    "evidence_snippet": "certification"
+  },
+  {
+    "skill": "jdeveloper",
+    "confidence": 0.9473684210526316,
+    "method": "fuzzy",
+    "evidence_snippet": "jdeveloper"
+  },
+  {
+    "skill": "publications",
+    "confidence": 1.0,
+    "method": "fuzzy",
+    "evidence_snippet": "publications"
+  },
+  {
+    "skill": "valuation",
+    "confidence": 0.9473684210526316,
+    "method": "fuzzy",
+    "evidence_snippet": "valuation"
+  },
+  {
+    "skill": "technologie",
+    "confidence": 0.9565217391304348,
+    "method": "fuzzy",
+    "evidence_snippet": "technologie"
+  },
+  {
+    "skill": "ecollege",
+    "confidence": 0.9333333333333332,
+    "method": "fuzzy",
+    "evidence_snippet": "ecollege"
+  },
+  {
+    "skill": "powder",
+    "confidence": 0.9090909090909091,
+    "method": "fuzzy",
+    "evidence_snippet": "powder"
+  },
+  {
+    "skill": "github",
+    "confidence": 1.0,
+    "method": "fuzzy",
+    "evidence_snippet": "github"
+  },
+  {
+    "skill": "resumes",
+    "confidence": 0.923076923076923,
+    "method": "fuzzy",
+    "evidence_snippet": "resumes"
+  },
+  {
+    "skill": "allegorithmic",
+    "confidence": 0.9166666666666665,
+    "method": "fuzzy",
+    "evidence_snippet": "allegorithmic"
+  },
+  {
+    "skill": "visualisation",
+    "confidence": 0.923076923076923,
+    "method": "fuzzy",
+    "evidence_snippet": "visualisation"
+  }
+]

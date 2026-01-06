@@ -1,0 +1,12 @@
+{
+  "matched_skills": [
+    "tensorflow"
+  ],
+  "missing_skills": [
+    "deep learning",
+    "pytorch"
+  ],
+  "coverage": 0.333,
+  "score": 33.33,
+  "explanation": "Exact + fuzzy (+ optional semantic) skill matching"
+}
