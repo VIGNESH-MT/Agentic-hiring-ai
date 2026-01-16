@@ -1,0 +1,24 @@
+{
+  "decision_id": "e1194060-d299-4a9f-91fa-2e686989ea5a",
+  "timestamp_utc": "2026-01-11T05:18:47.130907",
+  "resume_hash": "resume_abc123",
+  "jd_hash": "jd_xyz456",
+  "base_score": 62,
+  "bias_adjusted_score": 72,
+  "matched_skills": [
+    "python",
+    "sql"
+  ],
+  "missing_skills": [
+    "spark",
+    "airflow"
+  ],
+  "bias_flags": {
+    "jd_inflation_detected": true,
+    "skill_density_penalty": true,
+    "vocabulary_bias_risk": false
+  },
+  "explanation": "Bias-aware score adjustment applied.",
+  "model_version": "v1.0",
+  "pipeline_version": "phase2.4"
+}

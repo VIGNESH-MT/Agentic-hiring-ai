@@ -1,0 +1,31 @@
+{
+  "audit_id": "0c607837-5e61-49d8-9250-19f0fb14e3e5",
+  "timestamp": "2026-01-11T13:31:36.669254Z",
+  "candidate_snapshot": {
+    "resume_skills": [
+      "python",
+      "sql",
+      "ml"
+    ],
+    "jd_skills": [
+      "python",
+      "sql",
+      "ml",
+      "statistics"
+    ]
+  },
+  "role_evaluated": "Data Scientist",
+  "scores": {
+    "match_score": 78,
+    "offer_probability": 72
+  },
+  "bias_diagnostics": {
+    "skill_diversity_ratio": 0.8
+  },
+  "committee_decisions": [],
+  "final_decision": {
+    "recommendation": "APPROVE OFFER",
+    "confidence": "High"
+  },
+  "system_version": "v1.0.0"
+}
