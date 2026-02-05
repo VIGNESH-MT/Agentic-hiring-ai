@@ -192,30 +192,67 @@ Parquet / JSON (audit-friendly storage)
 
 Every dependency is chosen for predictability and governance, not hype.
 
-📂 Project Structure
-
-├── app.py
-├── README.md
-├── notebooks/
-│   ├── 01_eda.ipynb
-│   ├── 02_model.ipynb
+agentic-hiring-intelligence/
+│
+├── app.py                     # Entry point (Streamlit / UI layer)
+├── README.md                  # Project overview & system design
+├── requirements.txt           # Reproducible dependency lock
+│
+├── notebooks/                 # Research & validation artifacts
+│   ├── 01_exploratory_analysis.ipynb
+│   ├── 02_interpretable_modeling.ipynb
 │   └── 03_skills_catalog_integration.ipynb
 │
-├── src/
-│   ├── agents/              # Agentic decision layers
-│   ├── matcher.py
-│   ├── skill_agent.py
-│   └── skills_normalizer.py
+├── src/                       # Core application logic
+│   │
+│   ├── agents/                # Agentic decision layer
+│   │   ├── alignment_agent.py
+│   │   ├── bias_agent.py
+│   │   ├── calibration_agent.py
+│   │   ├── confidence_agent.py
+│   │   ├── causal_agent.py
+│   │   ├── stability_agent.py
+│   │   ├── simulation_agent.py
+│   │   └── committee_agent.py
+│   │
+│   ├── matching/              # Resume–JD matching logic
+│   │   ├── matcher.py
+│   │   └── similarity_metrics.py
+│   │
+│   ├── skills/                # Skill extraction & normalization
+│   │   ├── skill_agent.py
+│   │   ├── skills_normalizer.py
+│   │   └── skills_catalog.py
+│   │
+│   ├── governance/            # Policy, risk & audit enforcement
+│   │   ├── risk_profiles.py
+│   │   ├── audit_logger.py
+│   │   └── override_policy.py
+│   │
+│   └── config/                # Versioned system configuration
+│       ├── policies.yaml
+│       ├── thresholds.yaml
+│       └── model_registry.yaml
 │
-├── mcp_server/
-│   ├── schemas.py           # Typed tool contracts
-│   └── server.py
+├── mcp_server/                # Typed tool & orchestration layer
+│   ├── schemas.py             # Pydantic contracts (tool I/O)
+│   └── server.py              # MCP / tool execution runtime
 │
-├── outputs/
-│   ├── audit_logs/
-│   └── reports/
+├── outputs/                   # Generated artifacts (immutable)
+│   ├── audit_logs/            # Decision-level audit trails
+│   └── reports/               # Recruiter & executive outputs
 │
-└── tests/
+├── tests/                     # Deterministic test suite
+│   ├── test_agents.py
+│   ├── test_bias_controls.py
+│   ├── test_causal_analysis.py
+│   └── test_governance_rules.py
+│
+└── docs/                      # Extended documentation
+    ├── decision_flow.md
+    ├── bias_governance.md
+    └── audit_and_compliance.md
+
 
 
 👥 Intended Audience
