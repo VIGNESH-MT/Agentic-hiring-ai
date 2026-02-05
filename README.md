@@ -176,7 +176,6 @@ Full audit log (machine-readable)
 This system provides decision support, not blind automation.
 
 🛠 Technology
-
 Python
 
 scikit-learn (interpretable ML)
