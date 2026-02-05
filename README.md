@@ -1,9 +1,11 @@
 Agentic Hiring Intelligence Platform
+
 Deterministic • Explainable • Governance-First Decision Intelligence for Hiring
+
 <p align="center"> <b>Not another ATS. Not an LLM demo.</b><br/> <b>A production-grade decision intelligence system for high-stakes hiring.</b> </p> <p align="center"> <a href="#why-this-project">Why This Project</a> • <a href="#core-idea">Core Idea</a> • <a href="#system-architecture">Architecture</a> • <a href="#capabilities">Capabilities</a> • <a href="#quick-demo">Quick Demo</a> • <a href="#technology">Technology</a> • <a href="#intended-audience">Who This Is For</a> </p>
 🚀 Why This Project
 
-Most so-called “AI hiring tools” reduce hiring to a similarity scoring problem.
+Most so-called AI hiring tools reduce hiring to a similarity scoring problem.
 
 That approach fails in practice — and fails catastrophically under scrutiny.
 
@@ -43,7 +45,7 @@ Human-in-the-loop enforcement by design
 
 ⭐ This is the kind of AI system you can defend — legally, ethically, and technically.
 
-🧠 Core Idea (Elevator Pitch)
+🧠 Core Idea
 
 An agentic hiring intelligence platform that produces explainable, auditable, and policy-compliant hiring decisions — not just scores.
 
@@ -79,7 +81,8 @@ Governance & Control Layer
 Recruiter, Committee & Executive Outputs
 
 
-This is decision engineering, not model tinkering.
+
+This is decision engineering — not model tinkering.
 
 ✨ Capabilities
 🧩 Agentic Decision System (Not Just ML)
@@ -132,7 +135,7 @@ Versioned models, agents, and policies
 
 Mandatory justification for human overrides
 
-Every decision is replayable, inspectable, and attributable.
+Every decision is replayable and inspectable
 
 👔 Executive-Grade Outputs
 
@@ -144,8 +147,7 @@ Offer probability estimation
 
 Board-safe, regulator-safe justifications
 
-Outputs are designed for real organizational workflows, not demos.
-
+Built for real organizational workflows, not demos.
 
 ⚡ Quick Demo (Local)
 git clone https://github.com/your-username/agentic-hiring-ai.git
@@ -265,38 +267,20 @@ Hiring Technology Teams
 
 Responsible AI & Governance Groups
 
-Researchers working on decision intelligence
+Decision Intelligence Researchers
 
-If you care about:
-
-Explainability
-
-Fairness
-
-Auditability
-
-Deployability
-
-👉 This project is for you.
+If you care about explainability, fairness, auditability, and deployability — this project is for you.
 
 🌟 Why This Deserves a Star
 
-Not a toy
+Not a toy.
+Not an LLM wrapper.
+Not a Kaggle notebook.
 
-Not an LLM wrapper
-
-Not a Kaggle notebook
-
-This is:
-
-End-to-end AI system design for high-stakes decision-making — done properly.
-
-If this made you rethink how agentic AI should be built:
+This is end-to-end AI system design for high-stakes decision-making — done properly.
 
 ⭐ Star the repo
-
 🍴 Fork it
-
 💬 Open discussions or PRs
 
 👤 Author
@@ -304,11 +288,7 @@ If this made you rethink how agentic AI should be built:
 Vignesh Murugesan
 AI / Data Science Engineer
 
-Focus Areas:
+Focus Areas
 Agentic AI • Decision Intelligence • Responsible & Governed ML
-
-
-
-
 
 
