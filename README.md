@@ -66,7 +66,7 @@ This is a system intended to be **deployed, audited, and defended**.
 This is decision engineering, not model experimentation.
 
 ---
-
+```bash
 ## System Architecture
 
 Resumes / Job Descriptions
@@ -94,7 +94,7 @@ Governance & Control Layer
 ├─ Immutable Audit Logging
 ↓
 Recruiter, Committee & Executive Outputs
-
+```
 The architecture prioritizes determinism, testability, and governance over raw model complexity.
 
 ---
@@ -172,7 +172,7 @@ source .venv/bin/activate   # Windows: .venv\Scripts\activate
 
 pip install -r requirements.txt
 streamlit run app.py
-
+```
 Open: http://localhost:8501
 
 Example Outputs
@@ -210,6 +210,7 @@ Parquet / JSON (audit-friendly storage)
 Every dependency is chosen for predictability, traceability, and governance.
 
 Repository Structure
+```bash
 agentic-hiring-intelligence/
 │
 ├── app.py
@@ -232,6 +233,7 @@ agentic-hiring-intelligence/
 ├── outputs/
 ├── tests/
 └── docs/
+```
 Intended Audience
 
 Senior / Staff / Principal Engineers
