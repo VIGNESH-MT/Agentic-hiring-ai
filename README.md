@@ -1,263 +1,238 @@
-Agentic Hiring Intelligence Platform
+# Agentic Hiring Intelligence Platform
 
 Deterministic • Explainable • Governance-First Decision Intelligence for Hiring
 
-<p align="center"> <b>Not another ATS. Not an LLM demo.</b><br/> <b>A production-grade decision intelligence system for high-stakes hiring.</b> </p> <p align="center"> <a href="#why-this-project">Why This Project</a> • <a href="#core-idea">Core Idea</a> • <a href="#system-architecture">Architecture</a> • <a href="#capabilities">Capabilities</a> • <a href="#quick-demo">Quick Demo</a> • <a href="#technology">Technology</a> • <a href="#intended-audience">Who This Is For</a> </p>
-🚀 Why This Project
+<p align="center">
+  <b>Not an ATS. Not an LLM demo.</b><br/>
+  <b>A production-grade decision intelligence system for high-stakes hiring.</b>
+</p>
 
-Most so-called AI hiring tools reduce hiring to a similarity scoring problem.
+<p align="center">
+  <a href="#why-this-project">Why This Project</a> •
+  <a href="#core-design-principles">Core Principles</a> •
+  <a href="#system-architecture">Architecture</a> •
+  <a href="#capabilities">Capabilities</a> •
+  <a href="#local-demo">Local Demo</a> •
+  <a href="#technology-choices">Technology</a> •
+  <a href="#intended-audience">Audience</a>
+</p>
 
-That approach fails in practice — and fails catastrophically under scrutiny.
+---
 
-This project takes a fundamentally different stance:
+## Why This Project
 
-Hiring is a governed decision process, not a prediction task.
+Most AI hiring tools reduce hiring to a similarity-scoring problem.
 
-❌ What typical systems do
+That approach does not survive real-world deployment, regulatory scrutiny,
+or organizational accountability.
 
-Opaque similarity or embedding scores
+Hiring is not a prediction task.  
+It is a **governed decision process**.
 
-Unverifiable LLM reasoning
+This project is built on that premise.
 
-No causal attribution
+### What typical systems fail at
 
-No bias governance
+- Opaque similarity or embedding scores  
+- Unverifiable LLM reasoning  
+- No causal attribution  
+- No bias governance  
+- No audit trail  
+- No enforceable human accountability  
 
-No audit trail
+Such systems cannot be defended — technically, legally, or ethically.
 
-No human accountability
+### What this system is designed to do
 
-These systems cannot be safely deployed at scale.
+- Deterministic, agent-based decision reasoning  
+- Explicit hiring policy encoded as executable logic  
+- Bias-aware, bounded, and reversible adjustments  
+- Causal and counterfactual analysis  
+- Immutable, replayable audit logs  
+- Human-in-the-loop enforcement by design  
 
-✅ What this system does
+This is a system intended to be **deployed, audited, and defended**.
 
-Deterministic, agent-based reasoning
+---
 
-Explicit hiring policy encoded in code
+## Core Design Principles
 
-Bias-aware, bounded score adjustments
+- **Models generate signals — agents make decisions**
+- **Policy is code, not configuration afterthought**
+- **Every decision must be explainable, replayable, and attributable**
+- **Uncertainty triggers abstention, not hallucination**
+- **Humans retain accountability at all times**
 
-Counterfactual and causal analysis
+This is decision engineering, not model experimentation.
 
-Immutable, replayable audit logs
+---
 
-Human-in-the-loop enforcement by design
+## System Architecture
 
-⭐ This is the kind of AI system you can defend — legally, ethically, and technically.
-
-🧠 Core Idea
-
-An agentic hiring intelligence platform that produces explainable, auditable, and policy-compliant hiring decisions — not just scores.
-
-Models generate signals.
-Agents encode policy.
-Humans retain accountability.
-
-🏗️ System Architecture
-Resume / Job Description
-        ↓
+Resumes / Job Descriptions
+↓
 Skill Extraction
-(Exact + Fuzzy + Optional Semantic)
-        ↓
+(Exact • Fuzzy • Controlled Semantic)
+↓
 Canonical Skill Normalization
-        ↓
+↓
 Baseline Interpretable Model
-        ↓
+↓
 Agentic Decision Layer
- ├─ Alignment Agent
- ├─ Bias-Aware Agent
- ├─ Calibration Agent
- ├─ Confidence & Abstention Agent
- ├─ Causal Impact Agent
- ├─ Sensitivity & Stability Agent
- ├─ Simulation & Counterfactual Agent
- ├─ Hiring Committee & Panel Agents
-        ↓
+├─ Alignment Agent
+├─ Bias-Aware Agent
+├─ Calibration Agent
+├─ Confidence & Abstention Agent
+├─ Causal Impact Agent
+├─ Stability & Sensitivity Agent
+├─ Counterfactual Simulation Agent
+├─ Hiring Committee & Panel Agents
+↓
 Governance & Control Layer
- ├─ Risk Profiling
- ├─ Human Override Enforcement
- ├─ Immutable Audit Trail
-        ↓
+├─ Risk Profiling
+├─ Human Override Enforcement
+├─ Immutable Audit Logging
+↓
 Recruiter, Committee & Executive Outputs
 
+The architecture prioritizes determinism, testability, and governance over raw model complexity.
 
+---
 
-This is decision engineering — not model tinkering.
+## Capabilities
 
-✨ Capabilities
-🧩 Agentic Decision System (Not Just ML)
+### Agentic Decision System (Not Just ML)
 
-Each agent has a single, well-defined responsibility
+- Each agent has a single, well-defined responsibility  
+- Deterministic execution paths  
+- Fully testable and auditable logic  
+- No hallucinations in decision flow  
 
-Deterministic execution paths
+### Bias-Aware by Construction
 
-Fully testable and auditable
+- Job description inflation detection  
+- Skill density imbalance checks  
+- Vocabulary and proxy bias heuristics  
+- Bounded, transparent, reversible score adjustments  
 
-No hallucinations in decision logic
+Bias mitigation is enforced policy, not post-hoc explanation.
 
-⚖️ Bias-Aware by Construction
+---
 
-Job description inflation detection
+### Causal & Counterfactual Reasoning
 
-Skill density imbalance checks
+- Which signals materially affected the decision?  
+- What is the minimal change required to flip the outcome?  
+- Decision stability classification: **ROBUST** vs **FRAGILE**  
 
-Vocabulary and proxy bias heuristics
+This enables defensible explanations, not narrative justifications.
 
-Bounded, transparent, reversible adjustments
+---
 
-Bias mitigation is explicit policy, not post-hoc rhetoric.
+### Confidence & Abstention Logic
 
-🧠 Causal & Counterfactual Reasoning
+- Confidence is not a score  
+- System can explicitly refuse to decide under uncertainty  
+- Mandatory escalation to human review when required  
 
-Which skills actually caused this decision?
+Abstention is treated as a first-class outcome.
 
-What is the minimal change required to flip the outcome?
+---
 
-Decision stability classification: ROBUST vs FRAGILE
+### Audit & Compliance Readiness
 
-This enables defensible explanations, not vague narratives.
+- Immutable decision traces (JSON / Parquet)  
+- Versioned models, agents, and policies  
+- Mandatory justification for human overrides  
+- Every decision is replayable and inspectable  
 
-🛑 Confidence & Abstention Logic
+Designed for internal audit, legal review, and external scrutiny.
 
-Confidence ≠ score
+---
 
-System can refuse to decide under high uncertainty
+### Executive-Grade Outputs
 
-Escalates to human review when required
+- Recruiter-friendly summaries  
+- Hiring committee simulations  
+- Offer probability estimation  
+- Board-safe, regulator-safe decision explanations  
 
-Abstention is treated as a feature, not a failure.
+Built for real organizational workflows.
 
-📜 Audit & Compliance Readiness
+---
 
-Immutable decision traces (JSON / Parquet)
+## Local Demo
 
-Versioned models, agents, and policies
-
-Mandatory justification for human overrides
-
-Every decision is replayable and inspectable
-
-👔 Executive-Grade Outputs
-
-Recruiter-friendly summaries
-
-Hiring committee simulations
-
-Offer probability estimation
-
-Board-safe, regulator-safe justifications
-
-Built for real organizational workflows, not demos.
-
-⚡ Quick Demo (Local)
-git clone https://github.com/your-username/agentic-hiring-ai.git
-cd agentic-hiring-ai
+```bash
+git clone https://github.com/your-username/agentic-hiring-intelligence.git
+cd agentic-hiring-intelligence
 
 python -m venv .venv
-source .venv/bin/activate      # Windows: .venv\Scripts\activate
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
 
 pip install -r requirements.txt
 streamlit run app.py
 
-Open 👉 http://localhost:8501
+Open: http://localhost:8501
 
-🧪 Example Outputs
+Example Outputs
 
-Match score with causal explanation
+Match outcome with causal explanation
 
 Matched vs missing skills
 
-Bias flags (if triggered)
+Bias flags (when triggered)
 
 Decision stability: ROBUST / FRAGILE
 
 Human review requirement
 
-Full audit log (machine-readable)
+Machine-readable audit logs
 
-This system provides decision support, not blind automation.
+This system provides decision support — not blind automation.
 
-🛠 Technology
+Technology Choices
+
 Python
 
 scikit-learn (interpretable ML)
 
-LangChain (tool orchestration, not free-form LLM reasoning)
+LangChain (tool orchestration, not free-form reasoning)
 
 Pydantic (schema-safe contracts)
 
-Streamlit (decision review UI)
+Streamlit (decision review interface)
 
 RapidFuzz / TF-IDF (controlled NLP)
 
 Parquet / JSON (audit-friendly storage)
 
-Every dependency is chosen for predictability and governance, not hype.
+Every dependency is chosen for predictability, traceability, and governance.
 
+Repository Structure
 agentic-hiring-intelligence/
 │
-├── app.py                     # Entry point (Streamlit / UI layer)
-├── README.md                  # Project overview & system design
-├── requirements.txt           # Reproducible dependency lock
+├── app.py
+├── README.md
+├── requirements.txt
 │
-├── notebooks/                 # Research & validation artifacts
+├── notebooks/
 │   ├── 01_exploratory_analysis.ipynb
 │   ├── 02_interpretable_modeling.ipynb
 │   └── 03_skills_catalog_integration.ipynb
 │
-├── src/                       # Core application logic
-│   │
-│   ├── agents/                # Agentic decision layer
-│   │   ├── alignment_agent.py
-│   │   ├── bias_agent.py
-│   │   ├── calibration_agent.py
-│   │   ├── confidence_agent.py
-│   │   ├── causal_agent.py
-│   │   ├── stability_agent.py
-│   │   ├── simulation_agent.py
-│   │   └── committee_agent.py
-│   │
-│   ├── matching/              # Resume–JD matching logic
-│   │   ├── matcher.py
-│   │   └── similarity_metrics.py
-│   │
-│   ├── skills/                # Skill extraction & normalization
-│   │   ├── skill_agent.py
-│   │   ├── skills_normalizer.py
-│   │   └── skills_catalog.py
-│   │
-│   ├── governance/            # Policy, risk & audit enforcement
-│   │   ├── risk_profiles.py
-│   │   ├── audit_logger.py
-│   │   └── override_policy.py
-│   │
-│   └── config/                # Versioned system configuration
-│       ├── policies.yaml
-│       ├── thresholds.yaml
-│       └── model_registry.yaml
+├── src/
+│   ├── agents/
+│   ├── matching/
+│   ├── skills/
+│   ├── governance/
+│   └── config/
 │
-├── mcp_server/                # Typed tool & orchestration layer
-│   ├── schemas.py             # Pydantic contracts (tool I/O)
-│   └── server.py              # MCP / tool execution runtime
-│
-├── outputs/                   # Generated artifacts (immutable)
-│   ├── audit_logs/            # Decision-level audit trails
-│   └── reports/               # Recruiter & executive outputs
-│
-├── tests/                     # Deterministic test suite
-│   ├── test_agents.py
-│   ├── test_bias_controls.py
-│   ├── test_causal_analysis.py
-│   └── test_governance_rules.py
-│
-└── docs/                      # Extended documentation
-    ├── decision_flow.md
-    ├── bias_governance.md
-    └── audit_and_compliance.md
-
-
-
-👥 Intended Audience
+├── mcp_server/
+├── outputs/
+├── tests/
+└── docs/
+Intended Audience
 
 Senior / Staff / Principal Engineers
 
@@ -269,26 +244,22 @@ Responsible AI & Governance Groups
 
 Decision Intelligence Researchers
 
-If you care about explainability, fairness, auditability, and deployability — this project is for you.
+If you care about explainability, fairness, auditability, and deployability,
+this project is designed for you.
 
-🌟 Why This Deserves a Star
+Why This Project Exists
 
 Not a toy.
 Not an LLM wrapper.
-Not a Kaggle notebook.
+Not a demo.
 
-This is end-to-end AI system design for high-stakes decision-making — done properly.
+This is end-to-end AI system design for high-stakes decision-making —
+implemented with the constraints of real organizations in mind.
 
-⭐ Star the repo
-🍴 Fork it
-💬 Open discussions or PRs
-
-👤 Author
+Author
 
 Vignesh Murugesan
 AI / Data Science Engineer
 
 Focus Areas
-Agentic AI • Decision Intelligence • Responsible & Governed ML
-
-
+Agentic AI • Decision Intelligence • Governed & Responsible ML
