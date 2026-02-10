@@ -234,34 +234,40 @@ agentic-hiring-intelligence/
 ├── tests/
 └── docs/
 ```
-Intended Audience
+---
 
-Senior / Staff / Principal Engineers
+## Intended Audience
 
-AI Architects & Platform Leads
+This project is designed for practitioners and teams working on
+**high-stakes, real-world decision systems**, including:
 
-Hiring Technology Teams
+- **Senior / Staff / Principal Engineers**
+- **AI Architects & Platform Leads**
+- **Hiring Technology Teams**
+- **Responsible AI & Governance Groups**
+- **Decision Intelligence Researchers**
 
-Responsible AI & Governance Groups
+If you care about **explainability, fairness, auditability, and deployability**,  
+this system is built for you.
 
-Decision Intelligence Researchers
+---
 
-If you care about explainability, fairness, auditability, and deployability,
-this project is designed for you.
+## Why This Project Exists
 
-Why This Project Exists
+**Not a toy.**  
+**Not an LLM wrapper.**  
+**Not a demo.**
 
-Not a toy.
-Not an LLM wrapper.
-Not a demo.
+This is **end-to-end AI system design for high-stakes decision-making** —
+implemented with the constraints of real organizations in mind:
+regulation, accountability, failure modes, and human oversight.
 
-This is end-to-end AI system design for high-stakes decision-making —
-implemented with the constraints of real organizations in mind.
+---
 
-Author
+## Author
 
-Vignesh Murugesan
-AI / Data Science Engineer
+**Vignesh Murugesan**  
+AI / Data Science Engineer  
 
-Focus Areas
+**Focus Areas**  
 Agentic AI • Decision Intelligence • Governed & Responsible ML
