@@ -190,7 +190,7 @@ Human review requirement
 Machine-readable audit logs
 
 This system provides decision support — not blind automation.
-
+```bash
 Technology Choices
 
 Python
@@ -208,7 +208,7 @@ RapidFuzz / TF-IDF (controlled NLP)
 Parquet / JSON (audit-friendly storage)
 
 Every dependency is chosen for predictability, traceability, and governance.
-
+```
 Repository Structure
 ```bash
 agentic-hiring-intelligence/
