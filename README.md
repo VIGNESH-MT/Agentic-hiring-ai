@@ -66,7 +66,7 @@ This is a system intended to be **deployed, audited, and defended**.
 This is decision engineering, not model experimentation.
 
 ---
-
+```bash
 ## System Architecture
 
 Resumes / Job Descriptions
